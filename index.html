@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="selection-group">
+            <ul id="selections">
+              <li><a class="selection" href="#" id="a" draggable="true">
+                <img src="images/opencircuit1.jpg" />
+                <div>
+                  <p><strong>Circuit Layout A</strong></p>
+                  <p hidden><strong>Quantity</strong>: <span>1</span></p>
+                </div>
+              </a></li>
+              <li><a class="selection" href="#" id="b" draggable="true">
+                <img src="images/opencircuit2.png" />
+                <div>
+                  <p><strong>Circuit Layout B</strong></p>
+                  <p hidden><strong>Quantity</strong>: <span>1</span></p>
+                </div>
+              </a></li>
+              <li><a class="selection" href="#" id="c" draggable="true">
+                <img src="images/shortedcircuit.jpg" />
+                <div>
+                  <p><strong>Circuit Layout C</strong></p>
+                  <p hidden><strong>Quantity</strong>: <span>1</span></p>
+                </div>
+              </a></li>
+              <li><a class="selection" href="#" id="d" draggable="true">
+                <img src="images/closedcircuit.jpg" />
+                <div>
+                  <p><strong>Circuit Layout D</strong></p>
+                  <p hidden><strong>Quantity</strong>: <span>1</span></p>
+                </div>
+              </a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="circuit-group">
+            <div id="circuit" class="circuit1">
+              <h3>Open Circuit</h3>
+              <ul></ul>
+              <h4>Drop here to add to circuit box</h4>
+            </div>
+            <div id="circuit" class="circuit2">
+              <h3>Closed Circuit</h3>
+              <ul></ul>
+              <h4>Drop here to add to circuit box</h4>
+            </div>
+            <div id="circuit" class="circuit3">
+              <h3>Shorted Circuit</h3>
+              <ul></ul>
+              <h4>Drop here to add to circuit box</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="jquery.ndd.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
